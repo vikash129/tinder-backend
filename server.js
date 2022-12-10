@@ -12,8 +12,7 @@ app.use(Cors())
 
 
 // api config
-app.use("/api", tinder_router);
-
+app.use("/", tinder_router);
 
 
 //listen
