@@ -17,3 +17,6 @@ app.use("/", tinder_router);
 
 //listen
 app.listen(port , () => console.log(`listening  http://127.0.0.1:${port}`))
+
+// Export the Express API
+export default app;
